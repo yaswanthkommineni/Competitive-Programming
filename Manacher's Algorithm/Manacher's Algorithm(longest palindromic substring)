@@ -1,0 +1,6 @@
+We can find longest palindromic substring using Manacher's Algorithm in O(N) time
+
+explained well in this video
+https://www.youtube.com/watch?v=kbUiR5YWUpQ
+
+
