@@ -33,6 +33,5 @@ int main(){
 			if(poss[j]) poss[j+v[i]]=1;
 		}
 	}		
-	cout << poss[n] << endl;
 	return 0;
 }
