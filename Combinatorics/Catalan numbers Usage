@@ -1,0 +1,6 @@
+-> number of correct bracket sequence consisting of n opening and n closing brackets sequence
+-> number of rooted full binary trees with n+1 leaves(vertices are not numbered). A rooted binary tree is full if every vertex has either two or no children.
+-> the number of ways to comletely paranthesize n+1 factors
+
+for more refer cp algorithms
+
