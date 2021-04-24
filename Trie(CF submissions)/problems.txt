@@ -1,0 +1,5 @@
+I used trie concept in my submission of these problems (M0riarty)
+
+815E
+842D
+706D
