@@ -1,4 +1,4 @@
-I used trie concept in my submissions of these problems (M0riarty)
+I used trie concept in my submissions for these problems (M0riarty)
 
 815E
 842D
