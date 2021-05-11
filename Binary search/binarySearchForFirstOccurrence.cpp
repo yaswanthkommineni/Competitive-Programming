@@ -19,5 +19,6 @@ int main(){
 		}
 	}
 	cout << ans << endl;
+	// you can also use r+1 instead of ans
 	return 0;
 }
