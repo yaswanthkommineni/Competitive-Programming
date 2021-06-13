@@ -9,6 +9,7 @@ typedef long double ld;
 #define mpa make_pair
 #define endl '\n'
 
+// for maximum independent node set, find maximum graph matching and add one node from each edge in matching.
 // this was using flows and cuts algorithm by adding sink and source at vertices n+1 and n+2
 const ll M = 1003; // maximum number of vertices + 2
 vector < vector <ll> > w(M, vector <ll> (M));// weights
