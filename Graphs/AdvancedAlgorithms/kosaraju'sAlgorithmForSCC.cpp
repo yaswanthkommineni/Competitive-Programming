@@ -6,6 +6,8 @@ using namespace std;
 typedef long long int ll;
 #define endl '\n';
 
+// for 2-SAT answer, visit nodes in reverse topological order of strongly connected components (https://codeforces.com/gym/101987/submission/119426930)
+
 const ll M = 2e5+1;
 vector < vector <ll> > g(M),reverseG(M),scc;
 vector <bool> vis(M);
