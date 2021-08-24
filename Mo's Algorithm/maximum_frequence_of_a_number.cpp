@@ -10,6 +10,7 @@ typedef long double ld;
 #define endl '\n'
 
 /*
+Problem link - https://www.spoj.com/problems/FREQ2/
 Be careful with cnt2[0] it must be initialized to n (not 0)
 This may not be the efficient implementation
 Runs in O(n*sqrt(n))
