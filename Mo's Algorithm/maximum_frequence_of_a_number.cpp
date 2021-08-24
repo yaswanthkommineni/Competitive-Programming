@@ -19,7 +19,7 @@ Runs in O(n*sqrt(n))
 void solve(){
 	ll n,nq;
 	cin >> n >> nq;
-	vector <ll> v(n),hsh(1e5+1),val(n);
+	vector <ll> v(n),hsh(1e5+1);
 	set <ll> s;
 	for(ll i=0;i<n;i++){
 		cin >> v[i];
@@ -28,7 +28,6 @@ void solve(){
 	ll cnt = 0;
 	for(auto x : s){
 		hsh[x] = cnt;
-		val[cnt] = x;
 		cnt++;
 	}
 	for(ll i=0;i<n;i++){
@@ -45,7 +44,7 @@ void solve(){
 	vector <ll> ans(nq);
 	for(ll i=0;i<m;i++){
 		sort(w[i].begin(),w[i].end());
-		ll curl = 2*i,curr = 2*i-1,res = 0;
+		ll curl = k*i,curr = k*i-1,res = 0;
 		vector <ll> cnt1(cnt,0),cnt2(n+1,0);
 		cnt2[0] = n;
 		for(auto x : w[i]){
