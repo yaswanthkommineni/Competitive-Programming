@@ -10,6 +10,7 @@ typedef long double ld;
 #define endl '\n'
 
 /*
+Time complexity - O(n*sqrt(n))
 Problem link : https://codeforces.com/contest/86/problem/D
 This may not be the efficient solution. 
 It ran in ~2000ms for n = 2e5.
