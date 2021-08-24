@@ -10,19 +10,10 @@ typedef long double ld;
 #define endl '\n'
 
 /*
-Don't forget
-1. If you are looking at editorial, remember that you are accepting defeat.
-2. [If stuck] Don't stick to one approach and attack with different approaches.
-Write everything down, analyze the G-spot and attack throught it.
-3. Don't look at standings during the contest.
-4. Don't try to code fast and code concetrately instead or bugs will eat you in the sleep.
-5. When you  are writing return, make sure that there are no input operations after that
+Problem link : https://codeforces.com/contest/86/problem/D
+This may not be the efficient solution. 
+It ran in ~2000ms for n = 2e5.
 */
-
-void deb(){
-	cout << "OK" << endl;
-	cout.flush();
-}
 
 void solve(){
 	ll n,t;
