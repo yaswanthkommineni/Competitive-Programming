@@ -1,21 +1,20 @@
 // start
-class node{
-	public :
-		ll mn,lazySet,lazyIncrement;
-		bool setAll;
-		node(){
-			mn = 1e18+1;
-			setAll = false;
-			lazyIncrement = 0;
-		}
-		void reset(){
-			setAll = false;
-			lazyIncrement = 0;
-		}
-};
-
 class lazySegTreeForMin{
 	public :
+		class node{
+			public :
+				ll mn,lazySet,lazyIncrement;
+				bool setAll;
+				node(){
+					mn = 1e18+1;
+					setAll = false;
+					lazyIncrement = 0;
+				}
+				void reset(){
+					setAll = false;
+					lazyIncrement = 0;
+				}
+		};
 		ll n;
 		vector <node> tree;
 		lazySegTreeForMin(vector <ll> v){
