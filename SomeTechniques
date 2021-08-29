@@ -1,0 +1,7 @@
+// to generate all i's for a particular j such that i|j = j
+
+for(ll i=j;;i = (i-1)&j){
+	cout << i << " ";
+	if(i == 0) break;
+}
+cout << endl;
