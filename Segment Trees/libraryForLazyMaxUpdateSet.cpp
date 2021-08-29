@@ -1,21 +1,20 @@
 // start
-class node{
-	public :
-		ll mx,lazySet,lazyIncrement;
-		bool setAll;
-		node(){
-			mx = -1e18-1;
-			setAll = false;
-			lazyIncrement = 0;
-		}
-		void reset(){
-			setAll = false;
-			lazyIncrement = 0;
-		}
-};
-
 class lazySegTreeForMax{
 	public :
+		class node{
+			public :
+				ll mx,lazySet,lazyIncrement;
+				bool setAll;
+				node(){
+					mx = -1e18-1;
+					setAll = false;
+					lazyIncrement = 0;
+				}
+				void reset(){
+					setAll = false;
+					lazyIncrement = 0;
+				}
+		};
 		ll n;
 		vector <node> tree;
 		lazySegTreeForMax(vector <ll> v){
