@@ -1,21 +1,20 @@
 // start
-class node{
-	public :
-		ll sum,lazySet,lazyIncrement;
-		bool setAll;
-		node(){
-			sum = 0;
-			setAll = false;
-			lazyIncrement = 0;
-		}
-		void reset(){
-			setAll = false;
-			lazyIncrement = 0;
-		}
-};
-
 class lazySegTreeForSum{
 	public :
+		class node{
+			public :
+				ll sum,lazySet,lazyIncrement;
+				bool setAll;
+				node(){
+					sum = 0;
+					setAll = false;
+					lazyIncrement = 0;
+				}
+				void reset(){
+					setAll = false;
+					lazyIncrement = 0;
+				}
+		};
 		ll n;
 		vector <node> tree;
 		lazySegTreeForSum(vector <ll> v){
