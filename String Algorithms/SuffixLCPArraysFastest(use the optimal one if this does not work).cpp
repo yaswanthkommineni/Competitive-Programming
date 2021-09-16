@@ -1,4 +1,5 @@
 // source : https://sites.google.com/site/indy256/algo_cpp/suffix_array_lcp
+// works in almost O(n)
 class suffixLcpArrayObject{
 	public:
 		int maxn;
