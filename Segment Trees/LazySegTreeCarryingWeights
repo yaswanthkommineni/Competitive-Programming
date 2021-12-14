@@ -1,2 +1,5 @@
+lazy segtree when the nodes carry weithts. Used when we do coordinate compression and range updates on large ranges (like upto 1e9).
+
+
 refer https://codeforces.com/contest/1591/submission/139123855
 note: it contains modulo (%(prime<1e9)) operations
