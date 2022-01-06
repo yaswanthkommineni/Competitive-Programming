@@ -5,3 +5,8 @@ for(ll i=j;;i = (i-1)&j){
 	if(i == 0) break;
 }
 cout << endl;
+
+// Sum Over Subsets using Dynamic programming (SOS DP)
+
+Tutorial: https://codeforces.com/blog/entry/45223
+Problem: https://codeforces.com/contest/1620/problem/G
