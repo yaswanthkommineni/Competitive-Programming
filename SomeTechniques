@@ -10,3 +10,8 @@ cout << endl;
 
 Tutorial: https://codeforces.com/blog/entry/45223
 Problem: https://codeforces.com/contest/1620/problem/G
+
+// Finding the number of reachable nodes from a particular node for everynode in a directed acyclic graph
+
+problem: https://codeforces.com/problemset/problem/1795/G
+tutorial: https://codeforces.com/blog/entry/112963
