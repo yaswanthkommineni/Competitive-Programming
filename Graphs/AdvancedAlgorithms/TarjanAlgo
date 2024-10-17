@@ -1,2 +1,4 @@
 For articulation bridges
 https://codeforces.com/contest/1986/submission/286388319
+
+In the if loop of the visit time and tarjan number checking, the edge between x and u is the articulation bridge
