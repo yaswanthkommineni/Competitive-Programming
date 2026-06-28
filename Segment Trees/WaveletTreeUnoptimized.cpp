@@ -8,6 +8,8 @@ Segment tree where nodes represent the ranges, and at each node, we store the in
 Purpose:
 Can answer queries like Number of numbers <= k in a[l..r] in log(n)
 Can answer queries like kth smallest in a[l..r] in log(n) 
+Note: Using pointers is discouraged as maintaining array for each level and maintaing the index mappings to them is better than having pointers becase
+accessing pointers is way costlier.
 */
 
 class IndexTreeNode{
